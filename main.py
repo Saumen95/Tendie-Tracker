@@ -12,19 +12,21 @@ def init():
     create table if not exists expenses(
         amount number,
         category string,
-        message string,
-        date string
+        date string,
+        day string,
+        message string
     )
     '''
     cur.execute(sql)
     conn.commit()
 
 
-def log(amount, category, message=""):
+def log(amount, category, day, message=""):
     '''
     logs the expense in the database
     amount:number
     category:string
+    day:string
     message:(optional)string
     '''
     from datetime import datetime
@@ -36,9 +38,10 @@ def log(amount, category, message=""):
         {},
         '{}',
         '{}',
+        '{}',
         '{}'
     )
-    '''.format(amount, category, message, date)
+    '''.format(amount, category, day, date, message)
     cur.execute(sql)
     conn.commit()
 
