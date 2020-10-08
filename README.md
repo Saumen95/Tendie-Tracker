@@ -34,7 +34,7 @@ Basically, money. Internet people call money 'tendies' and it's a word play on '
 <img src="https://raw.githubusercontent.com/eddyharrington/Tendie-Tracker/master/docs/reports.gif" height="400">
 
 ## Run it locally (written for Windows and VSCode)
-1) Create a directory and clone the repo in it:
+1) Create a directory and clone the repo in it
 
 2) Create your virtual environment:
 ```
