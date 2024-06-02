@@ -36,7 +36,7 @@ Basically, money. Internet people call money 'tendies' and it's a word play on '
 ## Run it locally (written for Windows and VSCode)
 1) Create a directory and clone the repo in it
 ```
-git clone https://github.com/Saumen95/kipte.git
+git clone https://github.com/Saumen95/Tendie-Tracker.git
 ```
 2) Create your virtual environment:
 ```
